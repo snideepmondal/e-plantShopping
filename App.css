@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.landing {
+.background-image {
   height: 100vh;
   background-image: url("https://images.unsplash.com/photo-1416879595882-3373a0480b5b");
   background-size: cover;
@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 
-.landing h1 {
+.background-image h1 {
   font-size: 60px;
   margin-bottom: 20px;
 }
