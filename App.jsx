@@ -3,14 +3,17 @@ import "./App.css";
 import AboutUs from "./AboutUs";
 
 const App = () => {
-  const [started, setStarted] = useState(false);
+  const [showProductList, setShowProductList] = useState(false);
 
   return (
     <div>
-      {!started ? (
+      {!showProductList ? (
         <div className="landing">
-          <h1>Paradise Nursery</h1>
-          <button onClick={() => setStarted(true)}>Get Started</button>
+          <h1>Welcome to Paradise Nursery</h1>
+
+          <button onClick={() => setShowProductList(true)}>
+            Get Started
+          </button>
         </div>
       ) : (
         <AboutUs />
